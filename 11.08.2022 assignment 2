@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    
+    int i,j,c=0,n;
+    printf("n=");
+    scanf("%d",&n);
+    for(i=0;i<=n;i++)
+    {
+        for(j=0;j<=i;j++)
+        {
+           
+            c++;
+            if (c==n)
+            {
+                
+                break;
+            }
+        }
+        if (c==n)
+        {
+            break;
+        }
+    }
+    printf("%d",i);
+    return 0;
+}
