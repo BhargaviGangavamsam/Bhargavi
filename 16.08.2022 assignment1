@@ -3,7 +3,6 @@
 int main() {
     int x=0,i;
     int ar[4];
-    printf("eljw");
     for (i=0;i<4;i++)
     {
         scanf("%d",&ar[i]);
